@@ -6,6 +6,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ### Added
 - "Terms and Conditions" to Keycloak registration flow per https://www.pivotaltracker.com/story/show/171828917
 
+### Changed
+- fix logout issue on web platform
+- updated trends page chart headers
+- allow temperature entry in degrees Celsius (will be converted to degrees Fahrenheit)
+- validate questionnaire responses only when submitting questionnaire, rather than in real time
+- allow groups of items in learning center
+
 ## [0.2] - 2020-03-17
 ### Changed
 - reStyled the Stayhome KeyCloak login page.
