@@ -1,0 +1,31 @@
+# Changelog
+All notable changes to the StayHome project will be documented in this file.
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
+
+## [Unreleased]
+
+## [0.2] - 2020-03-17
+### Changed
+- reStyled the Stayhome KeyCloak login page.
+- allow learning center page to show resources even when accessed via URL
+
+## [0.1] - 2020-03-16
+### Added
+- A formal changelog.
+- Ability to generate new Patient FHIR and associated FHIR records.
+
+### Changed
+- Users can now self register (pre-existing account no longer required).
+- Start using "v<MAJOR>.<MINOR> versioning, at v0.1.
+- Migrate to new `Stayhome` keycloak realm for authentication.
+ 
+## [20.3.16] - 2020-03-16
+### Added
+- Validating temperature field in Questionnaire.
+- Label added to chart when a point is selected.
+- "What's Stayhome" link and backing pages added.
+ 
+## [2020.3.12.0] - 2020-03-12
+### Changed
+- Font styles used on front page and within app.
+- Applied new style and layout to login page.
