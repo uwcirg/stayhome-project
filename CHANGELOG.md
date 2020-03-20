@@ -3,6 +3,8 @@ All notable changes to the StayHome project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 
 ## [Unreleased]
+- Add a new next page for guest user
+- fix favoricon color to purple
 ### Changed
 - Go back to on-the-fly validation for temperature field
 - Go back to login page if terms are declined in keycloak
