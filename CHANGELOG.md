@@ -3,9 +3,20 @@ All notable changes to the StayHome project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 
 ## [Unreleased]
+### Added
+- help text to added to profile page
+- call/text preferred contact methods
+
 ### Changed
 - Go back to on-the-fly validation for temperature field
 - Go back to login page if terms are declined in keycloak
+- Resource links now open in a new tab
+
+### Fixed
+- fixed profile saving
+
+### Removed
+- removed terms and conditions from about page
 
 ## [0.3] - 2020-03-18
 ### Added
