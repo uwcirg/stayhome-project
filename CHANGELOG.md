@@ -8,6 +8,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 - call/text preferred contact methods
 - Add a new next page for guest user
 - fix favoricon color to purple
+- support simple notifications
+- add refresh and logout buttons in app bar on calendar page (for convenience, possibly temporary)
 
 ### Changed
 - Go back to on-the-fly validation for temperature field
