@@ -3,7 +3,10 @@ All notable changes to the StayHome project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 
 ## [Unreleased]
+
+## [0.5] - 2020-03-23
 ### Added
+- authorization for all requests to the HAPI server
 - support additional question types needed for exposure questionnaire
 
 ## [0.4] - 2020-03-22
