@@ -3,6 +3,8 @@ All notable changes to the StayHome project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 
 ## [Unreleased]
+
+## [0.4] - 2020-03-22
 ### Added
 - help text to added to profile page
 - call/text preferred contact methods
