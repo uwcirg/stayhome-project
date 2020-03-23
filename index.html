@@ -12,6 +12,9 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<script src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs@2/webcomponents-loader.min.js"></script>
+   		<script type="module" src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@1/src/zero-md.min.js"></script>
+
 	</head>
 	<body class="is-preload">
 
@@ -121,13 +124,15 @@
 						</div>
 				</section>
 				
-				<!--<section id="log" class="wrapper style1 align-center">
+				<section id="log" class="wrapper style1 align-center">
 						<div class="inner">
-							<h2>App Change Log</h2>
-							<object width="500" height="400" type="text/plain" data="changelog.md" border="0" style="overflow: hidden;">
-							</object>
+							<h2>Change Log</h2>
+							<zero-md src="changelog.md"></zero-md>
+							
+							<!--<object width="500" height="400" type="text/plain" data="changelog.md" border="0" style="overflow: hidden;">
+							</object>-->
 						</div>
-				</section>-->
+				</section>
 						
 				<!--App Button -->
 					
