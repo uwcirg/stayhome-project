@@ -5,6 +5,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ## [Unreleased]
 ### Added
 - hooks for unauthorized access to limited set of FHIR Resources
+- home page is now a springboard
+- communications page for all communications/notifications (active and dismissed)
 
 ### Changed
 - "not for clinical use" banner will now show for all non-prod deployments; banner text depends on deployment type.
