@@ -6,6 +6,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ### Added
 - hooks for unauthorized access to limited set of FHIR Resources
 - Adds matomo analytics tracking
+- home page is now a springboard
+- communications page for all communications/notifications (active and dismissed)
 - add read more button for CIRG
 - add cancel button to questionnaire; change title of done button to "save"
 - add confirmation dialog if answers were filled in but user presses back on questionnaire
