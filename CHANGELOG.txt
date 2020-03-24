@@ -2,6 +2,13 @@
 All notable changes to the StayHome project will be documented in this file.
 
 ## [Unreleased]
+### Fixed
+- fix invalid temperature field entry
+- fix some logout issues
+- show trends graphs only for hardcoded subset of questions (symptom assessment questions)
+- previously, entering a valid value and then deleting it or changing it to an invalid value would save the valid value. this is fixed here.
+- fix date and time parsing.
+- update resource loading/refreshing for guest users
 
 ## [0.6] - 2020-03-24
 ### Added
