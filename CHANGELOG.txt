@@ -5,6 +5,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ## [Unreleased]
 ### Added
 - hooks for unauthorized access to limited set of FHIR Resources
+- Adds matomo analytics tracking
 - home page is now a springboard
 - communications page for all communications/notifications (active and dismissed)
 
