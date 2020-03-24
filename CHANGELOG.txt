@@ -8,9 +8,20 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 - Adds matomo analytics tracking
 - home page is now a springboard
 - communications page for all communications/notifications (active and dismissed)
+- add read more button for CIRG
+- add cancel button to questionnaire; change title of done button to "save"
+- add confirmation dialog if answers were filled in but user presses back on questionnaire
 
 ### Changed
 - "not for clinical use" banner will now show for all non-prod deployments; banner text depends on deployment type.
+- support display item without title and just help text
+- fix home page scrolling
+- update learning center page title
+- switch profile and exposure tiles
+- update demo banner text to "not for real data"
+
+### Removed
+- remove change schedule button
 
 ## [0.5] - 2020-03-23
 ### Added
