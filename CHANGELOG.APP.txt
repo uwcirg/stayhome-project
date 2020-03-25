@@ -3,6 +3,21 @@ All notable changes to the StayHome app will be documented in this file.
 
 ## [Unreleased]
 
+## [0.7] - 2020-03-25
+### Added
+- stayhome-test systems for development and testing
+- simple welcome communication for new patients
+
+### Changed
+- stayhome.app and all related services deployed on AWS
+- if no patient or careplan for patient is found, just create, don't ask
+- guest login reworked
+
+### Fixed
+- Authorization proxy returning http.status_codes from HAPI calls
+- Patient and CarePlan creation loop
+- Extended token life to 2 hours
+
 ## [0.6] - 2020-03-24
 ### Added
 - hooks for unauthorized access to limited set of FHIR Resources
