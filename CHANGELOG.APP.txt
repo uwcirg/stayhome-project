@@ -2,7 +2,8 @@
 All notable changes to the StayHome app will be documented in this file.
 
 ## [Unreleased]
-
+- Update layout for login page and fix overflow issue in login page
+- Update layout for guest welcome page 
 ## [0.7] - 2020-03-25
 ### Added
 - stayhome-test systems for development and testing
