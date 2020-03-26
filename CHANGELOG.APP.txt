@@ -2,6 +2,16 @@
 All notable changes to the StayHome app will be documented in this file.
 
 ## [Unreleased]
+### Changed
+- updated questionnaires
+- more helpful log messages
+- remove datetime from supported fields since we really don't actually support it (yet)
+- update page titles to sentence case
+- center "no data to show yet" text on empty trends page
+
+### Fixed
+- fix disappearing field contents
+- make testing icon on springboard properly gray when tile is disabled
 
 ## [0.7] - 2020-03-25
 ### Added
