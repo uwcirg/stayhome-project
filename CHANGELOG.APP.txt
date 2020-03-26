@@ -2,6 +2,8 @@
 All notable changes to the StayHome app will be documented in this file.
 
 ## [Unreleased]
+- add datepicker to date fields in profile and questionnaire pages
+- remove logout icon from upper banner and add logout as new hamburger menu item
 
 ## [0.7] - 2020-03-25
 ### Added
