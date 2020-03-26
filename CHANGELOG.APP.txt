@@ -8,6 +8,7 @@ All notable changes to the StayHome app will be documented in this file.
 - remove datetime from supported fields since we really don't actually support it (yet)
 - update page titles to sentence case
 - center "no data to show yet" text on empty trends page
+- choice-type questions in questionnaires can now be deselected
 
 ### Fixed
 - fix disappearing field contents
