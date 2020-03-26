@@ -2,6 +2,10 @@
 All notable changes to the StayHome app will be documented in this file.
 
 ## [Unreleased]
+### Added
+
+### Changed
+- Terms edit per https://www.pivotaltracker.com/story/show/171984923
 
 ## [0.7] - 2020-03-25
 ### Added
