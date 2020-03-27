@@ -7,6 +7,7 @@ All notable changes to the StayHome app will be documented in this file.
 - resource button/tile on home page
 
 ### Fixed
+- resource link loading when using app as guest user
 - fix some back button navigation issues
 
 ### Removed
