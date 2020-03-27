@@ -2,7 +2,19 @@
 All notable changes to the StayHome app will be documented in this file.
 
 ## [Unreleased]
+### Added
+- pregnancy button/tile on home page (disabled for now - future feature!)
+- resource button/tile on home page
+
+### Changed
 - update profile page to include collapsible tiles that display section information
+
+### Fixed
+- resource link loading when using app as guest user
+- fix some back button navigation issues
+
+### Removed
+- removed all non-en locales for now since they're not yet fully supported.
 - remove logout button from profile page
 
 ## [0.8] - 2020-03-25
