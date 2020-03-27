@@ -9,6 +9,9 @@ All notable changes to the StayHome app will be documented in this file.
 ### Fixed
 - fix some back button navigation issues
 
+### Removed
+- removed all non-en locales for now since they're not yet fully supported.
+
 ## [0.8] - 2020-03-25
 ### Added
 - add datepicker to date fields in profile and questionnaire pages
