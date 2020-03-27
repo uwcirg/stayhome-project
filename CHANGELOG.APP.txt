@@ -3,6 +3,7 @@ All notable changes to the StayHome app will be documented in this file.
 
 ## [Unreleased]
 
+## [1.0] - 2020-03-27
 ### Added
 - pregnancy button/tile on home page (disabled for now - future feature!)
 - resource button/tile on home page
