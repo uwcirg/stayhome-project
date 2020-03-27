@@ -2,6 +2,8 @@
 All notable changes to the StayHome app will be documented in this file.
 
 ## [Unreleased]
+### Added
+- ability to review terms and conditions from about page
 
 ## [1.0] - 2020-03-27
 ### Added
