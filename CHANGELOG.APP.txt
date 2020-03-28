@@ -5,6 +5,9 @@ All notable changes to the StayHome app will be documented in this file.
 ### Added
 - ability to review terms and conditions from about page
 
+### Fixed
+- make guest home ("thank you and welcome") page scrollable and remove some spacing
+
 ## [1.0] - 2020-03-27
 ### Added
 - pregnancy button/tile on home page (disabled for now - future feature!)
