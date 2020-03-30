@@ -11,6 +11,7 @@ All notable changes to the StayHome app will be documented in this file.
 - make guest home ("thank you and welcome") page scrollable and remove some spacing
 - back button now works after going back home using house button in app bar
 - fixed alignment for answer choices in questionnaire
+- if user has not entered a name to display, display "name not entered" in drawer instead of empty string
 
 ### Removed
 - dedicated calendar page
