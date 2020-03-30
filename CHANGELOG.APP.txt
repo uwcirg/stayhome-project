@@ -1,17 +1,20 @@
 # Changelog
 All notable changes to the StayHome app will be documented in this file.
 
-## [Unreleased]
+## [1.1] - 2020-03-29
 ### Added
 - ability to review terms and conditions from about page
-- tabbed view for "calendar & history"
-- "line-listing" view of previously entered questionnaire responses (most recent 200 in reverse chronological order)
+- tabbed view for "calendar & history" (shows Calendar, History, My Trends)
+- chronological view of previously entered questionnaire responses (most recent 200 in reverse chronological order)
+- link to provide email feedback, currently in Information & Resources page
+- created spiceworks ticket queues for incoming messages
 
 ### Fixed
 - make guest home ("thank you and welcome") page scrollable and remove some spacing
 - back button now works after going back home using house button in app bar
 - fixed alignment for answer choices in questionnaire
 - if user has not entered a name to display, display "name not entered" in drawer instead of empty string
+- improved interaction design with various additionns and deletions from flow
 
 ### Removed
 - dedicated calendar page
