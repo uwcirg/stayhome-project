@@ -4,9 +4,17 @@ All notable changes to the StayHome app will be documented in this file.
 ## [Unreleased]
 ### Added
 - ability to review terms and conditions from about page
+- tabbed view for "calendar & history"
+- "line-listing" view of previously entered questionnaire responses (most recent 200 in reverse chronological order)
 
 ### Fixed
 - make guest home ("thank you and welcome") page scrollable and remove some spacing
+- back button now works after going back home using house button in app bar
+- fixed alignment for answer choices in questionnaire
+- if user has not entered a name to display, display "name not entered" in drawer instead of empty string
+
+### Removed
+- dedicated calendar page
 
 ## [1.0] - 2020-03-27
 ### Added
