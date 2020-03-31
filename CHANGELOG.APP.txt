@@ -1,6 +1,14 @@
 # Changelog
 All notable changes to the StayHome app will be documented in this file.
 
+## [Unreleased]
+### Added
+- contact us button in menu
+
+### Changed
+- resources are now external rather than app-internal
+- change about icon from people ("Account") to question mark ("Help")
+
 ## [1.1] - 2020-03-29
 ### Added
 - ability to review terms and conditions from about page
