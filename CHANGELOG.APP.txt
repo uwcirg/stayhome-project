@@ -2,6 +2,8 @@
 All notable changes to the StayHome app will be documented in this file.
 
 ## [Unreleased]
+
+## [1.2] - 2020-04-01
 ### Added
 - contact us button in menu
 
