@@ -3,6 +3,12 @@ All notable changes to the StayHome app will be documented in this file.
 
 ## [Unreleased]
 
+## [1.3] - 2020-04-02
+### Changed
+- text when save fails most likely due to session termination
+- add cancel button to the profile page
+- add change to preserve KeyCloak authentication information in localstorage, affecting Web platform only
+
 ## [1.2] - 2020-04-01
 ### Added
 - contact us button in menu
@@ -11,8 +17,6 @@ All notable changes to the StayHome app will be documented in this file.
 - resources are now external rather than app-internal
 - change about icon from people ("Account") to question mark ("Help")
 - help text in questionnaires is now larger
-- add cancel button to the profile page
-- add change to preserve KeyCloak authentication information in localstorage, affecting Web platform only
 
 ### Fixed
 - fix decimal number entering for temperature field
