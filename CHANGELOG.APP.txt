@@ -2,7 +2,8 @@
 All notable changes to the StayHome app will be documented in this file.
 
 ## [Unreleased]
-
+- on Profile page, flip order of cancel and save buttons
+- on Questionnaire page, fix styling of buttons
 ## [1.2] - 2020-04-01
 ### Added
 - contact us button in menu
