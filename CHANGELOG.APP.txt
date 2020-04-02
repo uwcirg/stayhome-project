@@ -8,6 +8,10 @@ All notable changes to the StayHome app will be documented in this file.
 ### Changed
 - resources are now external rather than app-internal
 - change about icon from people ("Account") to question mark ("Help")
+- help text in questionnaires is now larger
+
+### Fixed
+- fix decimal number entering for temperature field
 
 ## [1.1] - 2020-03-29
 ### Added
