@@ -2,17 +2,18 @@
 All notable changes to the StayHome app will be documented in this file.
 
 ## [Unreleased]
+
+## [1.4.1] - 2020-04-07
 ### Added
-- add pan and zoom behavior for charts
-- Add cancel button on Keycloak login page
+- Pan and zoom behavior for charts
+- Cancel button on Keycloak login page
 
 ### Changed
 - CDC symptom self-checker link now goes directly to the chatbot
-- set range of y axis to include all possible values for the question.
+- Set range of y axis to include all possible values for the question
 
 ### Fixed
-- fix blank charts for category type questions due to null display labels
-
+- Fix blank charts for category type questions due to null display labels
 
 ## [1.4] - 2020-04-06
 ### Added
