@@ -2,6 +2,15 @@
 All notable changes to the StayHome app will be documented in this file.
 
 ## [Unreleased]
+### Added
+- add pan and zoom behavior for charts
+
+### Changed
+- set range of y axis to include all possible values for the question.
+
+### Fixed
+- fix blank charts for category type questions due to null display labels
+
 
 ## [1.4] - 2020-04-06
 ### Added
