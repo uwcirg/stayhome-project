@@ -4,6 +4,7 @@ All notable changes to the StayHome app will be documented in this file.
 ## [Unreleased]
 ### Added
 - add pan and zoom behavior for charts
+- Add cancel button on Keycloak login page
 
 ### Changed
 - CDC symptom self-checker link now goes directly to the chatbot
