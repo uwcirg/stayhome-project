@@ -14,6 +14,99 @@ All notable changes to the StayHome app will be documented in this file.
 - fix disappearing field contents
 - make testing icon on springboard properly gray when tile is disabled
 
+## [1.4.1] - 2020-04-07
+### Added
+- Pan and zoom behavior for charts
+- Cancel button on Keycloak login page
+
+### Changed
+- CDC symptom self-checker link now goes directly to the chatbot
+- Set range of y axis to include all possible values for the question
+
+### Fixed
+- Fix blank charts for category type questions due to null display labels
+
+## [1.4] - 2020-04-06
+### Added
+- button to take the user to the CDC symptom self-checker
+- add COVID-19 testing questionnaire
+
+## [1.3.1] - 2020-04-02
+### Changed
+- minor questionnaire text edits to align with OCHIN content
+- go directly to profile on account creation
+
+## [1.3] - 2020-04-02
+### Added
+- StayHome is now a Progressive Web App (PWA)! It can be installed on iOS, Android, and supported desktop browsers using the "add to homescreen" option.
+- Added contact us button in menu
+
+### Changed
+- text when save fails most likely due to session termination
+- on Profile page, flip order of cancel and save buttons
+- on Questionnaire page, fix styling of buttons
+- add change to preserve KeyCloak authentication information in localstorage, affecting Web platform only
+- resources are now external rather than app-internal
+- change about icon from people ("Account") to question mark ("Help")
+- login page can now fit onto smaller screens (at least iPhone 5S size)
+
+### Fixed
+- fix empty string being saved for unanswered questionnaire questions
+
+
+## [1.2] - 2020-04-01
+### Changed
+- help text in questionnaires is now larger
+- add cancel button to the profile page
+
+### Fixed
+- fix decimal number entering for temperature field
+
+## [1.1] - 2020-03-29
+### Added
+- ability to review terms and conditions from about page
+- tabbed view for "calendar & history" (shows Calendar, History, My Trends)
+- chronological view of previously entered questionnaire responses (most recent 200 in reverse chronological order)
+- link to provide email feedback, currently in Information & Resources page
+- created spiceworks ticket queues for incoming messages
+
+### Fixed
+- make guest home ("thank you and welcome") page scrollable and remove some spacing
+- back button now works after going back home using house button in app bar
+- fixed alignment for answer choices in questionnaire
+- if user has not entered a name to display, display "name not entered" in drawer instead of empty string
+- improved interaction design with various additionns and deletions from flow
+
+### Removed
+- dedicated calendar page
+
+## [1.0] - 2020-03-27
+### Added
+- pregnancy button/tile on home page (disabled for now - future feature!)
+- resource button/tile on home page
+- fetch PIWIK siteID on client side script to differentiate Test environment from Production environment
+
+### Changed
+- update profile page to include collapsible tiles that display section information
+
+### Fixed
+- resource link loading when using app as guest user
+- fix some back button navigation issues
+
+### Removed
+- removed all non-en locales for now since they're not yet fully supported.
+- remove logout button from profile page
+
+## [0.8] - 2020-03-25
+### Added
+- add datepicker to date fields in profile and questionnaire pages
+- remove logout icon from upper banner and add logout as new hamburger menu item
+
+### Changed
+- Terms edit per https://www.pivotaltracker.com/story/show/171984923
+- Update layout for login page and fix overflow issue in login page
+- Update layout for guest welcome page 
+
 ## [0.7] - 2020-03-25
 ### Added
 - stayhome-test systems for development and testing
@@ -28,6 +121,13 @@ All notable changes to the StayHome app will be documented in this file.
 - Authorization proxy returning http.status_codes from HAPI calls
 - Patient and CarePlan creation loop
 - Extended token life to 2 hours
+- fix invalid temperature field entry
+- fix some logout issues
+- show trends graphs only for hardcoded subset of questions (symptom assessment questions)
+- previously, entering a valid value and then deleting it or changing it to an invalid value would save the valid value. this is fixed here.
+- fix date and time parsing.
+- update resource loading/refreshing for guest users
+
 
 ## [0.6] - 2020-03-24
 ### Added
