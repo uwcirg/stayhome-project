@@ -2,17 +2,6 @@
 All notable changes to the StayHome app will be documented in this file.
 
 ## [Unreleased]
-### Changed
-- updated questionnaires
-- more helpful log messages
-- remove datetime from supported fields since we really don't actually support it (yet)
-- update page titles to sentence case
-- center "no data to show yet" text on empty trends page
-- choice-type questions in questionnaires can now be deselected
-
-### Fixed
-- fix disappearing field contents
-- make testing icon on springboard properly gray when tile is disabled
 
 ## [1.4.1] - 2020-04-07
 ### Added
@@ -106,6 +95,16 @@ All notable changes to the StayHome app will be documented in this file.
 - Terms edit per https://www.pivotaltracker.com/story/show/171984923
 - Update layout for login page and fix overflow issue in login page
 - Update layout for guest welcome page 
+- updated questionnaires
+- more helpful log messages
+- remove datetime from supported fields since we really don't actually support it (yet)
+- update page titles to sentence case
+- center "no data to show yet" text on empty trends page
+- choice-type questions in questionnaires can now be deselected
+
+### Fixed
+- fix disappearing field contents
+- make testing icon on springboard properly gray when tile is disabled
 
 ## [0.7] - 2020-03-25
 ### Added
