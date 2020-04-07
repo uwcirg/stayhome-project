@@ -2,10 +2,13 @@
 All notable changes to the StayHome app will be documented in this file.
 
 ## [Unreleased]
+### Changed
+- CDC symptom self-checker link now goes directly to the chatbot
 
 ## [1.4] - 2020-04-06
 ### Added
 - button to take the user to the CDC symptom self-checker
+- add COVID-19 testing questionnaire
 
 ## [1.3.1] - 2020-04-02
 ### Changed
