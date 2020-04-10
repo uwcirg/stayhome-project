@@ -6,11 +6,11 @@ All notable changes to the StayHome app will be documented in this file.
 ## [1.5] - 2020-04-10
 ### Added
 - add ability to show system announcements on the login page
-- switch order of logout and contact menu items
 
 ### Changed
 - new menu header design
 - update datepicker to a more web-friendly version
+- switch order of logout and contact menu items
 
 ## [1.4.1] - 2020-04-07
 ### Added
