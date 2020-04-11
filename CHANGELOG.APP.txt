@@ -1,5 +1,5 @@
 # Changelog
-All notable changes to the StayHome app will be documented in this file.
+All notable changes to the StayHome app are documented in this file.
 
 ## [Unreleased]
 
