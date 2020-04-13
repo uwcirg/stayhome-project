@@ -2,7 +2,7 @@ html, body {
     height: 100%;
 }
 body.CDC {
-    background: #F5F5F5;
+    /* background: #F5F5F5; */
     font-family: "Open Sans","Segoe UI","Helvetica Neue",arial,sans-serif;
     padding: 0;
     margin: 0;
@@ -14,7 +14,8 @@ body.CDC {
 }
 .CDC-iframe-wrapper {
     top: 32px;
-    width: 92.5%;
+    /*width: 92.5%;*/
+    width: 100%;
     margin: auto;
     position: relative;
     position: relative;
@@ -24,7 +25,8 @@ body.CDC {
 }
 @media(min-width: 699px) {
     .CDC-iframe-wrapper {
-        width: 600px;
+        /*width: 600px;*/
+        width: 100%;
         padding-bottom: 60%;
     }
 }
@@ -38,7 +40,7 @@ body.CDC {
     top:0;
     left: 0;
     width: 100%;
-    height: 612px;
+    height: calc(100vh - 60px);
 }
 @media (min-width: 550px) {
     .CDC-iframe-wrapper iframe {
