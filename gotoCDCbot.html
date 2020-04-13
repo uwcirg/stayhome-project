@@ -9,14 +9,14 @@
     </head>
     <body class="CDC">
         <header class="cdc-banner-bar"><div class="icon-container"><img src="images/CDC_logo.png"/><span class="banner-title">Coronavirus Self-Checker</span></div></header>
-        <main>
-            <div class="cdc-loader loading">
-                <div class="loader"></div>
-              </div>
-            <div class="CDC-iframe-wrapper">
-                <iframe id="cdcbotFrame" src="https://covid19healthbot.cdc.gov/index.html" frameborder="0" height="600"></iframe>
+        <div class="cdc-loader loading">
+            <div class="loader"></div>
+        </div>
+        <div class="CDC-iframe-wrapper">
+            <div class="iframe-body">
+                <iframe id="cdcbotFrame" src="https://covid19healthbot.cdc.gov/index.html" width="100%"></iframe>
             </div>
-        </main>
+        </div>
         <script type="text/javascript">
             function loadContent() {
                 document.getElementById("cdcbotFrame").addEventListener("load", function() {
