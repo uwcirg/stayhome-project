@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>CDC Coronavirus Self-Checker</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="stylesheet" href="assets/css/cdc.css" />
+        <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    </head>
+    <body class="CDC">
+        <header class="cdc-banner-bar"><div class="icon-container"><img src="images/CDC_logo.png"/><span class="banner-title">Coronavirus Self-Checker</span></div></header>
+        <main>
+            <div class="cdc-loader loading">
+                <div class="loader"></div>
+              </div>
+            <div class="CDC-iframe-wrapper">
+                <iframe id="cdcbotFrame" src="https://covid19healthbot.cdc.gov/index.html" frameborder="0" height="600"></iframe>
+            </div>
+        </main>
+        <script type="text/javascript">
+            function loadContent() {
+                document.getElementById("cdcbotFrame").addEventListener("load", function() {
+                    document.querySelector(".cdc-loader").classList.add("hide");
+                });
+            }
+            document.addEventListener("DOMContentLoaded", function(){
+                // Handler when the DOM is fully loaded
+                loadContent();
+            });
+            /* Matomo */
+            var _paq = window._paq || [];
+            /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+            _paq.push(['trackPageView']);
+            _paq.push(['enableLinkTracking']);
+            (function() {
+            var u="https://piwik.cirg.washington.edu/";
+            _paq.push(['setTrackerUrl', u+'matomo.php']);
+            _paq.push(['setSiteId', '16']);
+            var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+            g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+            })();
+        </script>
+    </body>
+</html>
