@@ -58,12 +58,12 @@ body.CDC {
 .cdc-banner-bar img {
     width: 100px;
     display: inline-block;
-    margin-right: 8px;
+    margin-right: 4px;
     position: relative;
     top: 4px;
 }
 .cdc-banner-bar .banner-title {
-    font-size: 1.3em;
+    font-size: 1.25em;
     font-weight: 500;
     display: inline-block;
     vertical-align: middle;
@@ -71,6 +71,11 @@ body.CDC {
     position: relative;
     top: -20px;
     left: 8px;
+}
+@media (min-width: 699px) {
+    .cdc-banner-bar .banner-title {
+        font-size: 1.3em;
+    }
 }
 
 .loading {
