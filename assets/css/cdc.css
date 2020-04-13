@@ -13,7 +13,7 @@ body.CDC {
 }
 .CDC-iframe-wrapper {
     position: fixed;
-    z-index: 2147483647;
+    z-index: 999;
     top: 72px;
     left: 0;
     bottom: 0;
@@ -27,7 +27,7 @@ body.CDC {
 @media(min-width: 500px) {
     .iframe-body,
     #cdcbotFrame {
-        height: 540px;
+        height: 82.5vh;
     }
 }
 #cdcbotFrame {
@@ -81,9 +81,10 @@ body.CDC {
     justify-content: center;
     align-items: center;
     margin: 0;
-    position: absolute;
+    position: fixed;
     top: 45%;
     left: 50%;
+    z-index: 9999;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
