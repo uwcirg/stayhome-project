@@ -2,6 +2,9 @@
 All notable changes to the StayHome app are documented in this file.
 
 ## [Unreleased]
+### Added
+- questionnaire to identify at-risk conditions
+
 ### Changed
 - It is now possible to give explicit permissions for information sharing from the profile page. We also added the ability for members of programs we've partnered with to indicate membership and to allow information sharing with those programs.
 
