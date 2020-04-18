@@ -7,6 +7,8 @@ All notable changes to the StayHome app are documented in this file.
 
 ### Changed
 - It is now possible to give explicit permissions for information sharing from the profile page. We also added the ability for members of programs we've partnered with to indicate membership and to allow information sharing with those programs.
+- Update CDC self-checker link to point to a new page containing CDC trim
+- Update dashboard to contain detailed information for each account
 
 ## [1.5] - 2020-04-10
 ### Added
