@@ -2,6 +2,8 @@
 All notable changes to the StayHome app are documented in this file.
 
 ## [Unreleased]
+
+## [1.6] - 2020-04-17
 ### Added
 - questionnaire to identify at-risk conditions
 
