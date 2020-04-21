@@ -2,6 +2,8 @@
 All notable changes to the StayHome app are documented in this file.
 
 ## [Unreleased]
+### Added
+- pregnancy questionnaire to existing patients CarePlans
 
 ## [1.6] - 2020-04-17
 ### Added
