@@ -3,7 +3,8 @@ All notable changes to the StayHome app are documented in this file.
 
 ## [Unreleased]
 ### Added
-- Added an entry for the Social Distancing study to the profile page's information sharing section
+- An entry for the Social Distancing study to the profile page's information sharing section
+- pregnancy questionnaire to existing patients CarePlans
 
 ## [1.6] - 2020-04-17
 ### Added
