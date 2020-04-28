@@ -5,6 +5,7 @@ All notable changes to the StayHome app are documented in this file.
 ### Added
 - An entry for the Social Distancing study to the profile page's information sharing section
 - pregnancy questionnaire to existing patients CarePlans
+- ability to automatically consent to sharing with a certain program by opening the app with a program-specific link
 
 ## [1.6] - 2020-04-17
 ### Added
