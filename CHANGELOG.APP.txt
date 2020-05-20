@@ -2,6 +2,9 @@
 All notable changes to the StayHome app are documented in this file.
 
 ## [Unreleased]
+### Added
+- dashboard access to appropriate patients for org_staff and org_admin
+
 ### Fixed
 - fixed app bar title centering
 - user language choice is now saved between sessions
