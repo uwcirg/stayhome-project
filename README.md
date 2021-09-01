@@ -5,7 +5,7 @@ StayHome (https://stayhome.app) is a mobile-friendly web app that supports peopl
 
 Developed by the Clinical Informatics Research Group (CIRG) at University of Washington, 2019-2020. Read more about us at [https://www.cirg.washington.edu/](https://www.cirg.washington.edu/)
 
-The changelog is at [https://uwcirg.github.io/stayhomelanding/#change-log](https://uwcirg.github.io/stayhomelanding/#change-log)
+The changelog is at [https://uwcirg.github.io/stayhome-project/#change-log](https://uwcirg.github.io/stayhomelanding/#change-log)
 
 ## Repos
 ### StayHome clients
@@ -21,6 +21,6 @@ Seed FHIR bundle needed to initialize the app: https://github.com/uwcirg/stayhom
 
 
 ### Websites
-Project website: https://github.com/uwcirg/stayhomelanding (View at http://project.stayhome.app/)
+Project website: https://github.com/uwcirg/stayhome-project (View at http://project.stayhome.app/)
 
 Resources for individuals about COVID-19, organized by topic and geography, and resources to support isolation and quarantine:     https://github.com/uwcirg/stayhomeresources (View at https://resources.stayhome.app/)
